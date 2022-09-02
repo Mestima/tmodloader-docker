@@ -11,9 +11,9 @@ else
     unzip -o tModLoader.zip
     rm -r tModLoader.zip
 
-    curl -LO https://github.com/Mestima/tmodloader-docker/releases/download/${VERSION}/tmodloader-docker-master.zip
-    unzip -o tmodloader-docker-master.zip
-    rm -r tmodloader-docker-master.zip
+    curl -LO https://github.com/Mestima/tmodloader-docker/releases/download/v${VERSION}/tmodloader-docker.zip
+    unzip -o tmodloader-docker.zip
+    rm -r tmodloader-docker.zip
     mkdir contents/ModPacks/
     mkdir contents/Worlds/
     chmod +x startserver.sh
