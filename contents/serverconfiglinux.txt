@@ -17,5 +17,5 @@ npcstream=15
 priority=1
 
 # TML
-modpath=<path to server files>/contents/ModPacks/<modpack name>/Mods/
-modpack=<path to server files>/contents/ModPacks/<modpack name>/Mods/enabled.json
+modpath=contents/ModPacks/<modpack name>/Mods/
+modpack=contents/ModPacks/<modpack name>/Mods/enabled.json
