@@ -7,6 +7,8 @@ RUN apt update -y &&\
 
 COPY entrypoint.sh /
 
+RUN ["chmod", "+x", "/entrypoint.sh"]
+
 EXPOSE 7777
 
 WORKDIR /server/
